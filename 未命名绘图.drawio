@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T07:40:35.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FSbsixo-3WDHn2skcWJo" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T08:19:39.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="q-PW0hbF0FNQDNOEWMCx" version="21.6.8" type="github">
   <diagram name="第 1 页" id="SKGtHfz4EE8g_Jv6Ql24">
     <mxGraphModel dx="3088" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-162" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;噪声声源自动定位系统&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="5535" width="373" height="330" as="geometry" />
+        </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-33" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;ES7210组&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-827" y="3600" width="437" height="610" as="geometry" />
         </mxCell>
@@ -1450,6 +1453,54 @@
         </mxCell>
         <mxCell id="BzhLNjvLBWkgz3VRTSKQ-136" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Lp声压级计算&lt;br&gt;噪声超标事件检测&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-528.25" y="5250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BzhLNjvLBWkgz3VRTSKQ-138" target="BzhLNjvLBWkgz3VRTSKQ-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.078;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BzhLNjvLBWkgz3VRTSKQ-138" target="BzhLNjvLBWkgz3VRTSKQ-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-138" value="公网" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-582" y="5360" width="192" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-139" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;路由器&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-930.5" y="5565" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="BzhLNjvLBWkgz3VRTSKQ-142" target="BzhLNjvLBWkgz3VRTSKQ-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-142" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;麦克风采集设备&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-942.5" y="5785" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.215;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="BzhLNjvLBWkgz3VRTSKQ-145" target="BzhLNjvLBWkgz3VRTSKQ-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-145" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;算法处理设备&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-942.5" y="5665" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="BzhLNjvLBWkgz3VRTSKQ-147" target="BzhLNjvLBWkgz3VRTSKQ-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-147" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;海康摄像机&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-797.5" y="5665" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-149" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;千兆网口&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-960.5" y="5745" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-151" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;千兆网口&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-972.5" y="5625" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-155" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;千兆网口&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-724.5" y="5625" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="BzhLNjvLBWkgz3VRTSKQ-156" target="BzhLNjvLBWkgz3VRTSKQ-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-156" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;服务器&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;声学分析云平台&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-548" y="5535" width="143" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-160" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;用户&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;浏览器登录&lt;br&gt;远程监测&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-315.75" y="5535" width="143" height="325" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
