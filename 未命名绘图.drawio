@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T06:59:28.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MBHmiQbXh0_5pK_6qy3t" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T07:40:35.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FSbsixo-3WDHn2skcWJo" version="21.6.8" type="github">
   <diagram name="第 1 页" id="SKGtHfz4EE8g_Jv6Ql24">
-    <mxGraphModel dx="2801" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3088" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -745,81 +745,82 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;麦克风采集设备&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-804" y="4920" width="176.5" height="490" as="geometry" />
+          <mxGeometry x="-804" y="4920" width="176.5" height="410" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0iMLNUh1rzV7FVRTZrC5-3" target="0iMLNUh1rzV7FVRTZrC5-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;64路&lt;br&gt;麦克风阵列板&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-785.75" y="5010" width="140" height="80" as="geometry" />
+        <mxCell id="0iMLNUh1rzV7FVRTZrC5-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;64路麦克风阵列板&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-785" y="4960" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0iMLNUh1rzV7FVRTZrC5-6" target="0iMLNUh1rzV7FVRTZrC5-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-6" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;RT1176芯片&lt;br&gt;麦克风数据采集&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-785.75" y="5150" width="140" height="80" as="geometry" />
+        <mxCell id="0iMLNUh1rzV7FVRTZrC5-6" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;MCU主控芯片&lt;br&gt;麦克风数据采集&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-785" y="5060" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-7" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;RT1176芯片&lt;br&gt;采集数据网络发送&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-785.75" y="5300" width="140" height="80" as="geometry" />
+        <mxCell id="0iMLNUh1rzV7FVRTZrC5-7" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;MCU主控芯片通过&lt;br&gt;网络发送采集数据&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-785" y="5160" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0iMLNUh1rzV7FVRTZrC5-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-295" y="5164.999999999999" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iMLNUh1rzV7FVRTZrC5-10" target="0iMLNUh1rzV7FVRTZrC5-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;算法处理设备&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-546.5" y="4920" width="176.5" height="490" as="geometry" />
+          <mxGeometry x="-546.5" y="4920" width="176.5" height="410" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0iMLNUh1rzV7FVRTZrC5-12" target="0iMLNUh1rzV7FVRTZrC5-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-12" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;酷睿i5芯片&lt;br&gt;采集数据&lt;br&gt;网络接收&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-528.25" y="5010" width="140" height="80" as="geometry" />
+        <mxCell id="0iMLNUh1rzV7FVRTZrC5-12" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;通过网络接收&lt;br&gt;64路音频数据&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-528.25" y="4960" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0iMLNUh1rzV7FVRTZrC5-14" target="0iMLNUh1rzV7FVRTZrC5-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;64路麦克风&lt;br&gt;声源定位算法处理&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-528.25" y="5150" width="140" height="80" as="geometry" />
+        <mxCell id="0iMLNUh1rzV7FVRTZrC5-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;64路声源定位&lt;br&gt;算法处理&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-528.25" y="5060" width="140" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-15" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;声源定位结果&lt;br&gt;方向及位置&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-528.25" y="5300" width="140" height="80" as="geometry" />
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0iMLNUh1rzV7FVRTZrC5-15" target="BzhLNjvLBWkgz3VRTSKQ-136">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;云平台&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-293" y="4920" width="176.5" height="490" as="geometry" />
+        <mxCell id="0iMLNUh1rzV7FVRTZrC5-15" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;声源定位图像&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-528.25" y="5150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0iMLNUh1rzV7FVRTZrC5-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;声学分析云平台&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-293" y="4920" width="176.5" height="410" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0iMLNUh1rzV7FVRTZrC5-18" target="0iMLNUh1rzV7FVRTZrC5-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;声源定位&lt;br&gt;png图像&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-274.75" y="5010" width="140" height="80" as="geometry" />
+        <mxCell id="0iMLNUh1rzV7FVRTZrC5-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;声源定位图像&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-272.5" y="4960" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0iMLNUh1rzV7FVRTZrC5-20" target="0iMLNUh1rzV7FVRTZrC5-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-20" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;拉取视频流&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-274.75" y="5150" width="140" height="80" as="geometry" />
+          <mxGeometry x="-272.5" y="5050" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-21" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;声源定位图像&lt;br&gt;叠加显示&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-274.75" y="5300" width="140" height="80" as="geometry" />
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0iMLNUh1rzV7FVRTZrC5-21" target="BzhLNjvLBWkgz3VRTSKQ-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iMLNUh1rzV7FVRTZrC5-21" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;声源定位图像&lt;br&gt;叠加视频&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-272.5" y="5150" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-25" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;千兆网口&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-636.5" y="5130" width="90" height="30" as="geometry" />
+          <mxGeometry x="-635" y="5085" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-26" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;千兆网口&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-377.5" y="5130" width="90" height="30" as="geometry" />
+          <mxGeometry x="-375" y="5090" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0iMLNUh1rzV7FVRTZrC5-29" target="0iMLNUh1rzV7FVRTZrC5-16" edge="1">
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iMLNUh1rzV7FVRTZrC5-29" target="0iMLNUh1rzV7FVRTZrC5-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;海康摄像机&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-13" y="4920" width="176.5" height="490" as="geometry" />
-        </mxCell>
-        <mxCell id="0iMLNUh1rzV7FVRTZrC5-30" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;摄像机推流&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="8.5" y="5125" width="140" height="80" as="geometry" />
+          <mxGeometry x="-56.5" y="5055" width="123" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-32" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;萤石云&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-96.5" y="5125" width="70" height="30" as="geometry" />
+          <mxGeometry x="-125" y="5040" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0iMLNUh1rzV7FVRTZrC5-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0iMLNUh1rzV7FVRTZrC5-33" target="0iMLNUh1rzV7FVRTZrC5-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1443,6 +1444,12 @@
         </mxCell>
         <mxCell id="BzhLNjvLBWkgz3VRTSKQ-128" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;否&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-45.24999999999999" y="9060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-133" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;浏览器以视频的方式显示声源成像图&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-272.5" y="5250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BzhLNjvLBWkgz3VRTSKQ-136" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Lp声压级计算&lt;br&gt;噪声超标事件检测&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-528.25" y="5250" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
